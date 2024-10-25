@@ -1,0 +1,19 @@
+image: ${XY_CODEHUB_REGISTRY_URL}/beachstudio/codehub/environment/runner/building/python/xy-pypi:latest
+
+run:
+    variables:
+        GIT_SUBMODULE_STRATEGY: normal
+        GIT_SUBMODULE_UPDATE_FLAGS: --jobs 4
+        # GIT_SUBMODULE_PATHS: xy_work/data/template/config xy_work/data/template/runner
+    # before_script:
+    #     - python xy_git_submodule_sync.py -f "${CI_PROJECT_DIR}/.gitmodules" -o ${XY_CODEHUB_REGISTRY_URL} -r "${XY_CODEHUB_BS_GIT_USER}:${XY_CODEHUB_BS_GIT_PASS}@${XY_CODEHUB_REGISTRY_URL}"
+    #     - cat ${CI_PROJECT_DIR}/.gitmodules
+    script:
+        - echo "${CI_COMMIT_TAG}" > VERSION
+        - python setup.py sdist
+        - TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token python -m twine upload --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi dist/*
+    only:
+        - tags
+    tags:
+        - xy-codehub
+
