@@ -8,7 +8,7 @@ requires-python = ">=3.11.3"
 
 name = "xy_settings"
 
-authors = [{ name = "yuyangit", email = "yuyangit.0515@qq.com" }]
+authors = [{ name = "余洋", email = "yuyangit.0515@qq.com" }]
 description = "项目设置模块"
 
 dynamic = ["version"]

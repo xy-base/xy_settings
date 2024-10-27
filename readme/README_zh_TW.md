@@ -18,6 +18,7 @@
 ## 安裝
 
 ```bash
+# bash
 pip install xy_settings
 ```
 
@@ -137,6 +138,7 @@ if __name__ == "__main__":
 ```
 
 ```bash
+# bash
 python main.py
 # /mnt/bs-media/Workspace/project/opensource/xy-base/xy_settings/test/runner_path
 ```

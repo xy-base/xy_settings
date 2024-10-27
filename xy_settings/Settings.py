@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-__author__ = "yuyangit"
+__author__ = "余洋"
 __module__ = "Settings"
 __doc__ = "Settings"
 """
@@ -57,9 +57,7 @@ class Settings(metaclass=SettingsDelegate):
             section = section_type(
                 settings_delegate=self, auto_create_path=self.auto_create_path
             )
-            if isinstance(section, Section) and isinstance(
-                self.configure, Configure
-            ):
+            if isinstance(section, Section) and isinstance(self.configure, Configure):
                 try:
                     self.configure.register_section(section)
                     return section
@@ -81,7 +79,9 @@ class Settings(metaclass=SettingsDelegate):
                 if string_path and isinstance(string_path, str):
                     settings_cfg_path = Path(string_path)
             else:
-                raise ValueError(f"请传入合法的配置文件路径, 当前仅支持[toml,ini,json,xml]格式的配置文件!")
+                raise ValueError(
+                    f"请传入合法的配置文件路径, 当前仅支持[toml,ini,json,xml]格式的配置文件!"
+                )
 
         if isinstance(settings_cfg_path, str):
             settings_cfg_path = Path(settings_cfg_path)
