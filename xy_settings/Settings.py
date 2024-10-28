@@ -48,7 +48,7 @@ class Settings(metaclass=SettingsDelegate):
     def __init__(self) -> None:
         pass
 
-    def __make_section(self, section_type: type) -> Section | None:
+    def make_section(self, section_type: type) -> Section | None:
         if (
             isinstance(section_type, type)
             and issubclass(section_type, Section)
