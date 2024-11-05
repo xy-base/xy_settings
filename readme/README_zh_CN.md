@@ -11,7 +11,7 @@
 ## 源码仓库
 
 - <a href="https://github.com/xy-base/xy_settings.git" target="_blank">Github地址</a>  
-- <a href="https://gitee.com/xy-base/xy_settings.git" target="_blank">Gitee地址</a>
+- <a href="https://gitee.com/xy-opensource/xy_settings.git" target="_blank">Gitee地址</a>
 
 ## 安装
 
