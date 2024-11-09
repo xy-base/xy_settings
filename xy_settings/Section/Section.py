@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+# -*- coing: UTF-8 -*-
 __author__ = "余洋"
 
 """ 
@@ -10,7 +10,7 @@ __author__ = "余洋"
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  """
 from pathlib import Path
-from xy_file.File import File
+from xy_file.Object.File import File
 from xy_configure.Pair.Section import Section as xySection
 from xy_configure.Format.ConfigFormat import ConfigFormat
 from xy_settings.SettingsDelegate import SettingsDelegate

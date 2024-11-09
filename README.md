@@ -8,9 +8,9 @@
 -->
 # xy_settings
 
-- [简体中文](readme/README_zh_CN.md)
-- [繁体中文](readme/README_zh_TW.md)
-- [English](readme/README_en.md)
+- [简体中文](./README.md)
+- [繁體中文](readme/README.zh-hant.md)
+- [English](readme/README.en.md)
 
 ## 说明
 

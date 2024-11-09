@@ -1,19 +1,22 @@
 # xy_settings
 
-- [简体中文](README_zh_CN.md)
-- [繁体中文](README_zh_TW.md)
-- [English](README_en.md)
+- [简体中文](../README.md)
+- [繁體中文](README.zh-hant.md)
+- [English](README.en.md)
 
-## 说明
 
-通用设置模块
+## 說明
 
-## 源码仓库
+通用配置模組.
 
-- <a href="https://github.com/xy-base/xy_settings.git" target="_blank">Github地址</a>  
-- <a href="https://gitee.com/xy-opensource/xy_settings.git" target="_blank">Gitee地址</a>
 
-## 安装
+## 程式碼庫
+
+- <a href="https://github.com/xy-base/xy_settings.git" target="_blank">Github位址</a>  
+- <a href="https://gitee.com/xy-opensource/xy_settings.git" target="_blank">Gitee位址</a>  
+- <a href="https://gitcode.com/xy-opensource/xy_settings.git" target="_blank">GitCode位址</a>  
+
+## 安裝
 
 ```bash
 # bash
@@ -22,7 +25,7 @@ pip install xy_settings
 
 ## 使用
 
-###### python脚本
+###### python腳本
 
 ```toml
 # xy_test_settings.toml
@@ -135,27 +138,24 @@ if __name__ == "__main__":
     
 ```
 
-
 ```bash
 # bash
 python main.py
 # /mnt/bs-media/Workspace/project/opensource/xy-base/xy_settings/test/runner_path
 ```
 
-## 许可证
-xy_settings 根据 <木兰宽松许可证, 第2版> 获得许可。有关详细信息，请参阅 [LICENSE](../LICENSE) 文件。
+## 許可證
+xy_settings 根據 <木蘭寬鬆許可證, 第2版> 獲得許可。有關詳細信息，請參閱 [LICENSE](../LICENSE) 文件。
 
+## 捐贈
 
-## 捐赠
-
-如果小伙伴们觉得这些工具还不错的话，能否请咱喝一杯咖啡呢?  
+如果小夥伴們覺得這些工具還不錯的話，能否請咱喝一杯咖啡呢?  
 
 ![Pay-Total](./Pay-Total.png)
 
-
-## 联系方式
+## 聯繫方式
 
 ```
 微信: yuyangiit
-邮箱: yuyangit.0515@qq.com
+郵箱: yuyangit.0515@qq.com
 ```
