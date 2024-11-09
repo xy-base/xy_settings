@@ -1,4 +1,4 @@
-# -*- coing: UTF-8 -*-
+# -*- coding: UTF-8 -*-
 __author__ = "余洋"
 
 """ 
